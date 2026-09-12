@@ -1,6 +1,6 @@
 <div align="center">
 
-# Cute Gouache Illustrations
+# Cute Illustrations
 
 **把抽象观点，画成一座可爱、温暖、会运转的小小创意世界。**
 
