@@ -15,15 +15,13 @@
 
 ---
 
-## 先看效果
+## 风格基准
 
-<p align="center">
-  <img src="examples/images/01-creative-workflow-reference.jpg" width="88%" alt="Cute Gouache visual reference">
-</p>
+这套 Skill 的目标视觉语言已经固定：
 
-这张图只作为**视觉校准基准**：奶油纸、水粉蜡笔颗粒、粉彩色板、圆润角色、小世界叙事、少量手写批注。
+**暖奶油纸张 + 水粉大色块 + 蜡笔颗粒 + 彩铅细节 + 粉彩青绿/蜜桃/奶黄/珊瑚橙 + 圆润小角色 + 低科技小世界 + 少量手写批注。**
 
-真正使用 Skill 时，不应该一直复刻“左边乱想法 → 中间机器 → 右边输出”的同一构图。每个新主题都要重新发明场景和物理隐喻。
+重点不是复刻某一张参考图，而是稳定复用它背后的视觉语法：温暖、手作、可爱但不幼稚，场景丰富但始终有一个清楚的核心动作。
 
 > **统一的是视觉语言，不是模板。**
 
@@ -220,16 +218,11 @@ Use $cute-gouache-illustrations 编辑这张图。
 ├── LICENSE
 ├── NOTICE.md
 ├── examples/
-│   ├── images/
-│   │   └── 01-creative-workflow-reference.jpg
 │   └── prompts.md
 └── cute-gouache-illustrations/
     ├── SKILL.md
     ├── agents/
     │   └── openai.yaml
-    ├── assets/
-    │   └── examples/
-    │       └── 01-creative-workflow-reference.jpg
     └── references/
         ├── style-dna.md
         ├── tiny-maker-ip.md
@@ -240,8 +233,6 @@ Use $cute-gouache-illustrations 编辑这张图。
 ```
 
 真正需要安装到 Codex 的是 `cute-gouache-illustrations/` 子目录。
-
-`assets/examples/` 只用于低频视觉校准，不应该成为默认检索上下文，更不能当构图模板直接照抄。
 
 ---
 
